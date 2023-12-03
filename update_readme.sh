@@ -41,7 +41,7 @@ sed -i "s/\(Strings: *\)[0-9]*/\1$strings_count/" README.md
 
 # Update Total Files count
 total_count=$((dp_count + geometry_count + intro_problems_count + maths_count + range_queries_count + search_sort_count + trees_count + strings_count))
-sed -i "s/\(Total Files: *\)[0-9]*/\1$total_count/" README.md
+sed -i "s/\(Total Problems solved: *\)[0-9]*/\1$total_count/" README.md
 
 # Add a new entry to the Update History
 current_date_time=$(date +"%Y-%m-%d %H:%M")
