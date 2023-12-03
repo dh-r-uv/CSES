@@ -1,9 +1,8 @@
 # CSES
-# Competitive Programming Repository
 
-This repository contains solutions to various competitive programming problems. The solutions are categorized into different folders based on topics.
+This repository contains my solutions to the CSES problem set
 
-## Folder Structure
+## Problems solved
 
 - **Dynamic Programming:9** *<number of files>*
 - **Geometry:0** *<number of files>*
@@ -14,7 +13,7 @@ This repository contains solutions to various competitive programming problems. 
 - **Trees:3** *<number of files>*
 - **Strings:0** *<number of files>*
 
-## Total Files: 31*<sum of all files>*
+- `Total Problems solveed: 31` *<sum of all files>*
 
 ---
 
@@ -35,5 +34,7 @@ To automatically update the counts of files in each folder and the total count, 
 
    ```bash
    chmod +x update_readme.sh
+   
+  ## History of updates 
 - 2023-12-03 13:49: Auto-update counts.
 - 2023-12-03 13:50: Auto-update counts.
