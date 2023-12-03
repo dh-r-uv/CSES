@@ -4,14 +4,14 @@ This repository contains my solutions to the CSES problem set
 
 ## Problems solved
 
-- **Dynamic Programming:9** *<number of files>*
-- **Geometry:0** *<number of files>*
-- **Introductory Problems:19** *<number of files>*
-- **Maths:0** *<number of files>*
-- **Range Queries:0** *<number of files>*
-- **Searching and Sorting:0** *<number of files>*
-- **Trees:3** *<number of files>*
-- **Strings:0** *<number of files>*
+- `Dynamic Programming:9` *<number of files>*
+- `Geometry:0` *<number of files>*
+- `Introductory Problems:19` *<number of files>*
+- `Maths:0` *<number of files>*
+- `Range Queries:0` *<number of files>*
+- `Searching and Sorting:0` *<number of files>*
+- `Trees:3` *<number of files>*
+- `Strings:0` *<number of files>*
 
 - `Total Problems solveed: 31` *<sum of all files>*
 
