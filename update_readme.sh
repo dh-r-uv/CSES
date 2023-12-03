@@ -45,6 +45,6 @@ sed -i "s/\(Total Problems solved :  *\)[0-9]*/\1$total_count/" README.md
 
 # Add a new entry to the Update History
 current_date_time=$(date +"%Y-%m-%d %H:%M")
-echo "- $current_date_time: Auto-update counts." >> README.md
+echo "- Last update: $current_date_time" >> README.md
 
 echo "README.md updated successfully."

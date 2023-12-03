@@ -36,9 +36,5 @@ To automatically update the counts of files in each folder and the total count, 
    chmod +x update_readme.sh
    
   ## History of updates 
-- 2023-12-03 14:32: Auto-update counts.
-- 2023-12-03 14:49: Auto-update counts.
-- 2023-12-03 14:50: Auto-update counts.
-- 2023-12-03 14:52: Auto-update counts.
-- 2023-12-03 14:53: Auto-update counts.
-- 2023-12-04 01:14: Auto-update counts.
+
+- Last update: 2023-12-04 01:19
