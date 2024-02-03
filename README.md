@@ -13,7 +13,7 @@ This repository contains my solutions to the CSES problem set
 - **Trees : 3** *<number of files>*
 - **Strings : 0** *<number of files>*
 
-- **Total Problems solved : 37** *<sum of all files>*
+- **Total Problems solved : 38** *<sum of all files>*
 
 ---
 
