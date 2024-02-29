@@ -10,10 +10,11 @@ This repository contains my solutions to the CSES problem set
 - **Maths : 0** *<number of files>*
 - **Range Queries : 0** *<number of files>*
 - **Searching and Sorting : 0** *<number of files>*
-- **Trees : 3** *<number of files>*
+- **Trees : 10** *<number of files>*
 - **Strings : 0** *<number of files>*
+-- **Graphs: 1** *<number of files>*
 
-- **Total Problems solved : 38** *<sum of all files>*
+- **Total Problems solved : 46** *<sum of all files>*
 
 ---
 
