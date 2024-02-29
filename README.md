@@ -14,7 +14,7 @@ This repository contains my solutions to the CSES problem set
 - **Strings : 0** *<number of files>*
 -- **Graphs: 1** *<number of files>*
 
-- **Total Problems solved : 46** *<sum of all files>*
+- **Total Problems solved : 49** *<sum of all files>*
 
 ---
 
