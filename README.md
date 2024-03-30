@@ -12,7 +12,7 @@ This repository contains my solutions to the CSES problem set
 - **Searching and Sorting : 0** *<number of files>*
 - **Trees : 10** *<number of files>*
 - **Strings : 0** *<number of files>*
--- **Graphs: 1** *<number of files>*
+-- **Graphs: 9** *<number of files>*
 
 - **Total Problems solved : 49** *<sum of all files>*
 
