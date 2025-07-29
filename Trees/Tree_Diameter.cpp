@@ -1,66 +1,28 @@
 #include<bits/stdc++.h>
- #define pb push_back
- #define popb pop_back
- #define popf pop_front
- #define fr(a,b) for(int i = a; i < b; i++)
- #define rep(i,a,b) for(int i = a; i < b; i++)
- #define rev(i,a,b) for(int i = a; i > b; i--)
- #define setpr(x) cout << setprecision(x) fixed
- #define F first
- #define S second
- #define pii pair<int, int>
- #define vii <vector<pii>>
- #define sz size()
- #define seearr(a,x,y) for(int i=x;i<y;i++){cin>>a[i];}
- #define seevec(v,n) for(int i=0;i<n;i++){int x; cin>>x; v.push_back(x);}
- #define seeset(s,n) for(int i=0;i<n;i++){int x; cin>>x; s.insert(x);}
- #define mod 1e9+7
- #define inf (1LL<<60)
- #define all(x) (x).begin(), (x).end()
- #define prDouble(x) cout << fixed << setprecision(10) << x
- #define triplet pair<ll,pair<ll,ll>>
- #define fast_io ios_base::sync_with_stdio(false);cin.tie(NULL)
- using namespace std;
- #define ll long long
- 
-//define the global variables here
-int n,a, b, d=0, node=0;
-int const MX = 2e5+7;
-vector<int> tree[MX];
-int vis[MX];
- 
-//dfs to reach every leaf node
- 
-void dfs(int c = 1, int p = 0, int dep=0){
-	for(int s : tree[c]){
-		if(s!=p) dfs(s, c, dep+1);
-	}
-	if(dep>d){
-		d = dep;
-		node = c;
-	}
-}
- 
-void solve()
-{
+#define int long long
+using namespace std;
+
+int32_t main(){
+	int n;
 	cin >> n;
-	fr(1, n){
-		cin >> a >> b;
-		tree[a].pb(b);
-		tree[b].pb(a);
+	vector<int> adj[n+1];
+	for(int i=1; i<n; i++){
+		int u, v;
+		cin >> u >> v;
+		adj[u].push_back(v);
+		adj[v].push_back(u);
 	}
-	dfs();//traversing forward
-	dfs(node);//traversing backwards to the parent back to the other leaf node
-	cout << d;
-}
- 
-int main() {
-	fast_io;
-	ll t=1;
-	//cin >> t;
-	while(t--)
-	{
-	   solve();
-	}
-	return 0;
+	function<pair<int, int>(int, int)> dfs = [&](int u, int p) ->pair<int, int>{
+		pair<int, int> mx = {0, u};
+		for(auto v: adj[u]){
+			if(v==p)
+				continue;
+			auto [d, x] = dfs(v, u);
+			mx = max(mx, {d+1, x});
+		}
+		return mx;
+	};
+	auto [d, x] = dfs(1, 0);
+	auto [d2, x2] = dfs(x, 0);
+	cout << d2 <<endl;
 }
