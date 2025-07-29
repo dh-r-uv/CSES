@@ -1,28 +1,27 @@
 # CSES
 
-This repository contains my solutions to the CSES problem set
+This repository contains my solutions to the CSES problem set.
 
 ## Problems solved
-
-- **Dynamic Programming : 16** *<number of files>*
-- **Geometry : 3** *<number of files>*
-- **Introductory Problems : 19** *<number of files>*
-- **Maths : 0** *<number of files>*
-- **Range Queries : 0** *<number of files>*
-- **Searching and Sorting : 0** *<number of files>*
-- **Trees : 10** *<number of files>*
-- **Strings : 0** *<number of files>*
-- **Graphs: 9** *<number of files>*
-
-- **Total Problems solved : 57** *<sum of all files>*
-
----
+<!-- COUNTS START -->
+Advanced Graphs : 4
+Dynamic Programming : 22
+Geometry : 3
+Graphs : 25
+Introductory problems : 19
+Maths : 7
+Range Queries : 6
+Searching and Sorting : 26
+Strings : 5
+Trees : 14
+Total Problems solved : 131
+<!-- COUNTS END -->
 
 ## Usage
 
 ### Update File Counts
 
-To automatically update the counts of files in each folder and the total count, you can use the provided script. The script utilizes the `find` command to count the files in each folder and updates the README file accordingly.
+To automatically update the counts of files in each folder and the total count, you can use the provided script (`update_readme.sh`). The script utilizes the `find` command to count the files in each folder and then replaces the block between the markers in this README.
 
 #### Prerequisites
 
@@ -35,7 +34,6 @@ To automatically update the counts of files in each folder and the total count, 
 
    ```bash
    chmod +x update_readme.sh
-   
-  ## History of updates 
 
-- Last update: 2023-12-04 01:19
+## Update History
+- 2025-07-29 15:28: auto-updated counts
