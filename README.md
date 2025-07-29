@@ -4,17 +4,18 @@ This repository contains my solutions to the CSES problem set.
 
 ## Problems solved
 <!-- COUNTS START -->
-Advanced Graphs : 4
-Dynamic Programming : 22
-Geometry : 3
-Graphs : 25
-Introductory problems : 19
-Maths : 7
-Range Queries : 6
-Searching and Sorting : 26
-Strings : 5
-Trees : 14
-Total Problems solved : 131
+- Advanced Graphs : 4
+- Dynamic Programming : 22
+- Geometry : 3
+- Graphs : 25
+- Introductory problems : 19
+- Maths : 7
+- Range Queries : 6
+- Searching and Sorting : 26
+- Strings : 5
+- Trees : 14
+- Total Problems solved : 131
+<!-- COUNTS END -->
 <!-- COUNTS END -->
 
 ## Usage
@@ -37,3 +38,4 @@ To automatically update the counts of files in each folder and the total count, 
 
 ## Update History
 - 2025-07-29 15:28: auto-updated counts
+- 2025-07-29 15:30: auto-updated counts
